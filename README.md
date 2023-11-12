@@ -1,2 +1,2 @@
-# Primeiros-passos-no-GitHub
+# Depósito De Pequenos Projectos
 Será onde irei praticar o que estou aprendendo ...
