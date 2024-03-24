@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Age Calculator App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main id="container">
+        <section>
+          <header id="titulo">
+            <p class="c-input" id="c-day">
+              <label for="day" class="texto">Day</label>
+              <input type="text" required placeholder="DD" id="day">
+              <span id="alerta_1"></span>
+            </p>
+          
+            <p id="c-month" class="c-input">
+              <label for="month" class="texto">Month</label>
+              <input type="text" required placeholder="MM" id="month">
+              <span id="alerta_2"></span>
+            </p>
+            <p id="c-year" class="c-input">
+              <label for="year" class="texto">Year</label>
+              <input type="text" required placeholder="YYYY" id="year">
+             <span id="alerta_3"></span>
+            </p>
+            <div id="botao" onclick="calcular()">
+             >
+            </div>
+          </header>
+          <article>
+            <h1><span id="resp_ano" class="result">--</span> Anos</h1>
+            <h1><span id="resp_mes" class="result">--</span> Meses</h1>
+            <h1><span id="resp_dia" class="result">--</span> Dias</h1>
+          </article>
+
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
