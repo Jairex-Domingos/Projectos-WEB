@@ -1,2 +1,2 @@
 # Depósito De Pequenos Projectos
-Será onde irei praticar o que estou aprendendo ...
+Local de deposito de projectos prontos para avaliação vossa e críticas contrutivas
